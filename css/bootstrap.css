@@ -4725,10 +4725,16 @@ input[type="button"].btn-block {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #fff;
+  background-color: rgba(144, 208, 227, 0.636);
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 0.25rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  list-style-position: inside;
+}
+
+.card p {
+  font-style: italic;
 }
 
 .card > hr {
@@ -4767,6 +4773,7 @@ input[type="button"].btn-block {
 
 .card-title {
   margin-bottom: 0.75rem;
+  margin-top: 0.75rem;
 }
 
 .card-subtitle {
