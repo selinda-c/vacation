@@ -467,6 +467,9 @@ mark,
   display: block;
   font-size: 80%;
   color: #6c757d;
+  background-color: #0c536047;
+  border-radius: 20rem;
+  width: 400px;
 }
 
 .blockquote-footer::before {
